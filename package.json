@@ -1,0 +1,23 @@
+{
+  "name": "babel-boilerplate",
+  "version": "1.0.0",
+  "description": "Small boilerplate project structure for writing modern JavaScript code and transforming it with Babel for older browser support.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ignasJoni/babel-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Ignas Jonikavicius",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-preset-minify": "^0.5.1"
+  },
+  "dependencies": {}
+}
